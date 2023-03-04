@@ -5,6 +5,21 @@ Repositório para o live coding do dia 30/09/2021 sobre o Amazon DynamoDB
   - Amazon DynamoDB
   - Amazon CLI para execução em linha de comando
 
+## Setup
+
+1. Ir no canto superior direito em seu nome de usuário
+2. Escolher Security Credentials
+3. Rolar até chaves de acesso e criar chave de acesso
+
+### No CLI
+
+1. Usar o comando `aws configure`
+2. Informar nesta ordem:
+  1. chave de acesso
+  2. chave de acesso secreta
+  3. regiao (pode estar localizada na URL do site, algo como us-east-1)
+  4. formato de saida dos comandos
+
 ### Comandos para execução do experimento:
 
 
